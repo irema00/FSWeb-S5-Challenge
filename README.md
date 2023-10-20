@@ -10,9 +10,9 @@ Bu sprint mücadelesi sırasında işbirliği yapmanıza izin verilmez.
 
 ### Proje Kurulumu
 
-* [ ] Bu projenyi forklayarak bir kopyasını oluşturun.
-* [ ] Reponun kendi versiyonunuzu klonlayın.
-* [ ] Commitinizi pushlayın: `git push origin main`.
+- [ ] Bu projenyi forklayarak bir kopyasını oluşturun.
+- [ ] Reponun kendi versiyonunuzu klonlayın.
+- [ ] Commitinizi pushlayın: `git push origin main`.
 
 ## Proje Açıklaması
 
@@ -47,13 +47,21 @@ Aşağıda listelenen minimum uygulanabilir ürün (MVP) spesifikasyonlarını k
 - Yazım denetimi ve dilbilgisi denetimi de dahil olmak üzere çalışmanızı gözden geçirmek, iyileştirmek için zaman planlayın.
 - MVP'yi karşılayan bir meydan okuma göndermek, çok fazla detayla uğraşılıp da çalışmayan bir kod göndermekten daha iyidir.
 
-
 ## Ek Sorular
 
 Aşağıdaki soruları yanıtlayarak bu sprint'in kavramlarını anladığınızı gösterin. Her sorudan sonra yanıtlarınızı eklemek için bu belgeyi düzenleyin.
 
 1. DOM nedir?
+   Document Object Model
+
 2. Bir event nedir?
+   Kullanıcı etkileşimi
+
 3. Bir event dinleyici(listener) nedir?
+   İzleme süreci ve ardından gerçekleşen eylem
+
 4. Neden bir NodeList'i Array'e dönüştürelim??
+   Çünkü array-like objedir, forEach'e erişimi vardır fakat .reduce, .map ya da başka bir array yöntemi yoktur.
+
 5. Bileşen nedir?
+   Yeniden kullanılabilir custom html elementleri oluşturmamıza, bunları web sayfalarımızda ve web uygulamalarınızda kullanmamıza olanak tanıyan bir özellik dizisidir.
